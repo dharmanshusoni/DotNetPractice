@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Practice
+namespace DotNetPractice.DotNetClasses
 {
-    public class AsynchronousProgram
+    internal class ThreadOddEven
     {
         static EventWaitHandle evenReady;
         static EventWaitHandle oddReady;
@@ -52,6 +52,7 @@ namespace Practice
 
         public static void oddThread()
         {
+
             for (int i = 1; i < 10; i += 2)
             {
                 evenReady.WaitOne();

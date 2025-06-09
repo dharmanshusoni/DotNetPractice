@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practice
+namespace DotNetPractice.DotNetClasses
 {
     public class Student
     {
@@ -66,8 +66,8 @@ namespace Practice
                                   standard => standard.StandardID,  // innerKeySelector
                                   (student, standard) => new  // result selector
                                   {
-                                      StudentName = student.StudentName,
-                                      StandardName = standard.StandardName
+                                      student.StudentName,
+                                      standard.StandardName
                                   });
 
             var td = (from s in studentList

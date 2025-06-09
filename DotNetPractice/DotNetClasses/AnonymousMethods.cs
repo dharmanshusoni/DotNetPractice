@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practice
+namespace DotNetPractice.DotNetClasses
 {
     public delegate void PrintMessage(string msg);
     internal class AnonymousMethods

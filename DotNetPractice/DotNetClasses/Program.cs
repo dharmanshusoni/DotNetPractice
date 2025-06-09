@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practice
+namespace DotNetPractice.DotNetClasses
 {
     //Generic Class 
     class KeyValuePairs<TKey, TValue>
@@ -101,7 +101,7 @@ namespace Practice
 
     class Program
     {
-        private static String print()
+        private static string print()
         {
             return "Hi, I am Dharmanshu!";
         }
@@ -169,7 +169,7 @@ namespace Practice
             //Console.WriteLine(i[0]); // Error Index out of bound
 
             Program obj = null;
-            Console.WriteLine(Program.print()); // Output
+            Console.WriteLine(print()); // Output
 
             // ArrayList
             ArrayList array1 = new ArrayList();

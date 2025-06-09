@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 //A delegate in C# is a type that refers to methods with a parameter list and return type
 delegate int NumberChanger(int n);
-namespace Practice
+namespace DotNetPractice.DotNetClasses
 {
     internal class DelegateClass
     {

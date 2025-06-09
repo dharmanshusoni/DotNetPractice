@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practice
+namespace DotNetPractice.DotNetClasses
 {
     public interface IService
     {
@@ -29,11 +29,11 @@ namespace Practice
         private IService _service;
         public Client(IService service)
         {
-            this._service = service;
+            _service = service;
         }
         public void ServeMethod()
         {
-            this._service.Serve();
+            _service.Serve();
         }
     }
 

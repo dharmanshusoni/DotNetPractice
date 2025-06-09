@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 
-namespace Practice
+namespace DotNetPractice.DotNetClasses
 {
     public class MemoryCaching
     {
@@ -42,7 +42,7 @@ namespace Practice
             Console.ReadLine();
         }
 
-        private static void OnTimedEvent(Object source, ElapsedEventArgs e)
+        private static void OnTimedEvent(object source, ElapsedEventArgs e)
         {
             ObjectCache cache = MemoryCache.Default;
             var fruits = cache.Get("list") as List<string>;
