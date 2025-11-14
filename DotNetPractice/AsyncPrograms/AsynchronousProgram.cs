@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace DotNetPractice.DotNetClasses
+namespace DotNetPractice.AsyncPrograms
 {
     public class AsynchronousProgram
     {

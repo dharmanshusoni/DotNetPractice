@@ -41,7 +41,7 @@ namespace Practice
             
             Console.WriteLine(p.reverseString("google")); // reverse String
 
-            Console.WriteLine(p.isPalendrom("radar1")); // is Palendrom
+            Console.WriteLine(p.isPalendrom("radar")); // is Palendrom
 
             p.findFrequencyOfTarget(a,3); // find Frequency Of Target
 

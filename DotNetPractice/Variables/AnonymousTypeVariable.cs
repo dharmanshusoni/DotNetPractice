@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DotNetPractice.DotNetClasses
+namespace DotNetPractice.Variables
 {
     public class AnonymousTypeVariable
     {
