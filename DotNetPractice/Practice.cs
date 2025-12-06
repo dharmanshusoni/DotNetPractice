@@ -31,7 +31,7 @@ namespace Practice
     internal class Practice
     {
         // Keep in mind, main() is not acceptable, Main() is 
-        public static void Main(string[] args)
+        public static void Main1(string[] args)
         {
             Practice p = new Practice();
             int[] a = { 1, 2, 3, 3 };
