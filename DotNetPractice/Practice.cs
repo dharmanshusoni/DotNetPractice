@@ -49,7 +49,6 @@ namespace Practice
 
             Console.ReadKey();
         }
-        
         public int[] rotateArray(int[] numbers)
         {
             int size = numbers.Length;
