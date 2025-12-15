@@ -8,7 +8,7 @@ namespace DotNetPractice.DesignPattern.CreationalDesignPatterns.FactoryMethod
 {
     internal class FactoryMethod
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             PaymentProcessorFactory factory;
 
